@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -43,22 +44,14 @@ body {
 }
 .item {
     font-family: 'Kumbh Sans', sans-serif;
-    font-size: 12px;
     font-weight: 400;
     color: hsl(0, 0%, 59%);
     margin: 10px 0;
     flex: 1;
 }
-.items {
-    font-size: 18px;
-    font-weight: 400;
-    color: hsl(0, 0%, 59%);
-    margin: 10px 0;
-}
+
 .desc {
-    font-family:'Kumbh Sans', sans-serif;
     font-weight: 700;
-    font-size: 18px;
     color: #000;
    
 }
@@ -84,19 +77,13 @@ body {
  }
 .circles .c1 {
     top: -500px;
-    left: -230px;
+    left: -20px;
     transform: translate(-100px, -50px);
 }
 .circles .c2 {
     bottom: -500px;
-    right: -230px; 
+    right: -20px; 
     transform: translate(100px, 50px);
 }
-@keyframes .circles {
-    0%  {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-        transform: translate(0)
-    }
+
+
